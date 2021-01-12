@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parameter-library>
+<parameter name="RuleResultSet" label="规则结果集" type="List" act="InOut"/>
+<parameter name="FlowResultSet" label="流程结果集" type="Map" act="InOut"/>
+<parameter name="ModelResultSet" label="模型结果集" type="Map" act="InOut"/>
+</parameter-library>

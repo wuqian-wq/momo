@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule-set>
+<remark><![CDATA[]]></remark>
+<rule name="QLZBLQ">
+<remark><![CDATA[ 全量指标拉取 ]]></remark>
+<if>
+<and/>
+</if>
+<then>
+<var-assign var-category="传入变量" var="BK_ProApply_I" var-label="行内_产品申请标签" datatype="Integer" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="BK_ProApply_I" const-label="行内_产品申请标签" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="BK_ProApply_I" var-label="行内_产品申请标签" datatype="Integer" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="BK_IfEnApply_S" var-label="行内_是否提供经营信息" datatype="String" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="BK_IfEnApply_S" const-label="行内_是否提供经营信息" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="BK_IfEnApply_S" var-label="行内_是否提供经营信息" datatype="String" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="BK_HLList_Count_I" var-label="行内_安居贷白名单标签" datatype="Integer" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="BK_HLList_Count_I" const-label="行内_安居贷白名单标签" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="BK_HLList_Count_I" var-label="行内_安居贷白名单标签" datatype="Integer" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="BK_PLList_Count_I" var-label="行内_行业贷白名单标签" datatype="Integer" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="BK_PLList_Count_I" const-label="行内_行业贷白名单标签" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="BK_PLList_Count_I" var-label="行内_行业贷白名单标签" datatype="Integer" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="BK_ALList_Count_I" var-label="行内_助农贷白名单标签" datatype="Integer" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="BK_ALList_Count_I" const-label="行内_助农贷白名单标签" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="BK_ALList_Count_I" var-label="行内_助农贷白名单标签" datatype="Integer" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="BK_SecProApply_I" var-label="行内_子产品申请标签" datatype="Integer" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="BK_SecProApply_I" const-label="行内_子产品申请标签" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="BK_SecProApply_I" var-label="行内_子产品申请标签" datatype="Integer" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="BK_IfHBList_I" var-label="行内_助贷渠道标签" datatype="Integer" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="BK_IfHBList_I" const-label="行内_助贷渠道标签" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="BK_IfHBList_I" var-label="行内_助贷渠道标签" datatype="Integer" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="PBV2_UnclearHouseLoanCnt_I" var-label="人行_未结清房贷笔数" datatype="Integer" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="PBV2_UnclearHouseLoanCnt_I" const-label="人行_未结清房贷笔数" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="PBV2_UnclearHouseLoanCnt_I" var-label="人行_未结清房贷笔数" datatype="Integer" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="PBV2_edu_level_S" var-label="人行_学历" datatype="String" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="PBV2_edu_level_S" const-label="人行_学历" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="PBV2_edu_level_S" var-label="人行_学历" datatype="String" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="PBV2_AFNormalCnt_I" var-label="人行_人行公积金正常缴交笔数" datatype="Integer" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="PBV2_AFNormalCnt_I" const-label="人行_人行公积金正常缴交笔数" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="PBV2_AFNormalCnt_I" var-label="人行_人行公积金正常缴交笔数" datatype="Integer" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="PBV2_UnclearCreditLoanBankCnt_I" var-label="人行_未结清信用贷款笔数" datatype="Integer" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="PBV2_UnclearCreditLoanBankCnt_I" const-label="人行_未结清信用贷款笔数" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="PBV2_UnclearCreditLoanBankCnt_I" var-label="人行_未结清信用贷款笔数" datatype="Integer" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="PBV2_EfficientCardCnt_I" var-label="人行_有效贷记卡卡账户数" datatype="Integer" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="PBV2_EfficientCardCnt_I" const-label="人行_有效贷记卡卡账户数" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="PBV2_EfficientCardCnt_I" var-label="人行_有效贷记卡卡账户数" datatype="Integer" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="Apply_JobProvince_S" var-label="进件信息_工作省份" datatype="String" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="Apply_JobProvince_S" const-label="进件信息_工作省份" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="Apply_JobProvince_S" var-label="进件信息_工作省份" datatype="String" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="Apply_CertNoPrefix2_S" var-label="进件信息_身份证号前两位" datatype="String" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="Apply_CertNoPrefix2_S" const-label="进件信息_身份证号前两位" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="Apply_CertNoPrefix2_S" var-label="进件信息_身份证号前两位" datatype="String" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="Apply_HomeProvince_S" var-label="进件信息_居住省份" datatype="String" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="Apply_HomeProvince_S" const-label="进件信息_居住省份" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="Apply_HomeProvince_S" var-label="进件信息_居住省份" datatype="String" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="PBV2_Count_I" var-label="人行_人行报告数 " datatype="Integer" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="PBV2_Count_I" const-label="人行_人行报告数 " type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="PBV2_Count_I" var-label="人行_人行报告数 " datatype="Integer" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="Apply_Age_I" var-label="进件信息_年龄 " datatype="Integer" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="Apply_Age_I" const-label="进件信息_年龄 " type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="Apply_Age_I" var-label="进件信息_年龄 " datatype="Integer" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="Apply_JobName_S" var-label="进件信息_单位名称" datatype="String" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="Apply_JobName_S" const-label="进件信息_单位名称" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="Apply_JobName_S" var-label="进件信息_单位名称" datatype="String" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="Apply_JobType_S" var-label="进件信息_职业信息选项" datatype="String" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="Apply_JobType_S" const-label="进件信息_职业信息选项" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="Apply_JobType_S" var-label="进件信息_职业信息选项" datatype="String" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="Apply_CertNoValidDay_I" var-label="进件信息_身份证有效期" datatype="Integer" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="Apply_CertNoValidDay_I" const-label="进件信息_身份证有效期" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="Apply_CertNoValidDay_I" var-label="进件信息_身份证有效期" datatype="Integer" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="Apply_Contact1Name_S" var-label="进件信息_联系人1名字" datatype="String" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="Apply_Contact1Name_S" const-label="进件信息_联系人1名字" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="Apply_Contact1Name_S" var-label="进件信息_联系人1名字" datatype="String" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="Apply_Contact2Name_S" var-label="进件信息_联系人2名字" datatype="String" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="Apply_Contact2Name_S" const-label="进件信息_联系人2名字" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="Apply_Contact2Name_S" var-label="进件信息_联系人2名字" datatype="String" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+<var-assign var-category="传入变量" var="Apply_LeastRefuseDays_I" var-label="进件信息_最近一次拒绝间隔天数" datatype="Integer" type="variable">
+<value bean-name="ApiBuiltInAction" bean-label="Api函数" method-name="apiIndexP2" method-label="计算指标P2" type="Method">
+<parameter name="指标编码" type="String">
+<value const-category="常量" const="Apply_LeastRefuseDays_I" const-label="进件信息_最近一次拒绝间隔天数" type="Constant"/>
+</parameter>
+<parameter name="指标" type="Object">
+<value var-category="传入变量" var="Apply_LeastRefuseDays_I" var-label="进件信息_最近一次拒绝间隔天数" datatype="Integer" type="Variable"/>
+</parameter>
+</value>
+</var-assign>
+</then>
+<else/>
+</rule>
+</rule-set>

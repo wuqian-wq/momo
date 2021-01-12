@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<constant-library>
+<category name="CL_BOOL_STATE" label="布尔">
+<constant name="true" label="真" type="Boolean"/>
+<constant name="false" label="假" type="Boolean"/>
+</category>
+<category name="CL_EXEC_STATE" label="执行结果">
+<constant name="0" label="通过" type="Integer"/>
+<constant name="1" label="拒绝" type="Integer"/>
+</category><category name="CL_RULE_STATE" label="命中状态">
+<constant name="0" label="未命中" type="Integer"/>
+<constant name="1" label="命中" type="Integer"/>
+</category>
+<category name="CL_CONSTANT" label="常量">
+<constant label="行内_产品申请标签" name="BK_ProApply_I" type="String"/>
+<constant label="行内_是否提供经营信息" name="BK_IfEnApply_S" type="String"/>
+<constant label="行内_安居贷白名单标签" name="BK_HLList_Count_I" type="String"/>
+<constant label="行内_行业贷白名单标签" name="BK_PLList_Count_I" type="String"/>
+<constant label="行内_助农贷白名单标签" name="BK_ALList_Count_I" type="String"/>
+<constant label="行内_子产品申请标签" name="BK_SecProApply_I" type="String"/>
+<constant label="行内_助贷渠道标签" name="BK_IfHBList_I" type="String"/>
+<constant label="人行_未结清房贷笔数" name="PBV2_UnclearHouseLoanCnt_I" type="String"/>
+<constant label="人行_学历" name="PBV2_edu_level_S" type="String"/>
+<constant label="人行_人行公积金正常缴交笔数" name="PBV2_AFNormalCnt_I" type="String"/>
+<constant label="人行_未结清信用贷款笔数" name="PBV2_UnclearCreditLoanBankCnt_I" type="String"/>
+<constant label="人行_有效贷记卡卡账户数" name="PBV2_EfficientCardCnt_I" type="String"/>
+<constant label="进件信息_工作省份" name="Apply_JobProvince_S" type="String"/>
+<constant label="进件信息_身份证号前两位" name="Apply_CertNoPrefix2_S" type="String"/>
+<constant label="进件信息_居住省份" name="Apply_HomeProvince_S" type="String"/>
+<constant label="人行_人行报告数 " name="PBV2_Count_I" type="String"/>
+<constant label="进件信息_年龄 " name="Apply_Age_I" type="String"/>
+<constant label="进件信息_单位名称" name="Apply_JobName_S" type="String"/>
+<constant label="进件信息_职业信息选项" name="Apply_JobType_S" type="String"/>
+<constant label="进件信息_身份证有效期" name="Apply_CertNoValidDay_I" type="String"/>
+<constant label="进件信息_联系人1名字" name="Apply_Contact1Name_S" type="String"/>
+<constant label="进件信息_联系人2名字" name="Apply_Contact2Name_S" type="String"/>
+<constant label="进件信息_最近一次拒绝间隔天数" name="Apply_LeastRefuseDays_I" type="String"/>
+</category>
+</constant-library>
