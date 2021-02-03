@@ -1,377 +1,377 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <variable-library>
-<category name="传入变量" type="Custom" clazz="com.qsq.dmp.common.utils.DmpSyncMap">
-<var act="InOut" name="BK_ProApply_I" source-type="FEATURE" label="行内_产品申请标签" type="Integer"/>
-<var act="InOut" name="BK_IfEnApply_S" source-type="FEATURE" label="行内_是否提供经营信息" type="String"/>
-<var act="InOut" name="BK_HLList_Count_I" source-type="FEATURE" label="行内_安居贷白名单标签" type="Integer"/>
-<var act="InOut" name="BK_PLList_Count_I" source-type="FEATURE" label="行内_行业贷白名单标签" type="Integer"/>
-<var act="InOut" name="BK_ALList_Count_I" source-type="FEATURE" label="行内_助农贷白名单标签" type="Integer"/>
-<var act="InOut" name="BK_SecProApply_I" source-type="FEATURE" label="行内_子产品申请标签" type="Integer"/>
-<var act="InOut" name="BK_IfHBList_I" source-type="FEATURE" label="行内_助贷渠道标签" type="Integer"/>
-<var act="InOut" name="PBV2_UnclearHouseLoanCnt_I" source-type="FEATURE" label="人行_未结清房贷笔数" type="Integer"/>
-<var act="InOut" name="PBV2_edu_level_S" source-type="FEATURE" label="人行_学历" type="String"/>
-<var act="InOut" name="PBV2_AFNormalCnt_I" source-type="FEATURE" label="人行_人行公积金正常缴交笔数" type="Integer"/>
-<var act="InOut" name="PBV2_UnclearCreditLoanBankCnt_I" source-type="FEATURE" label="人行_未结清信用贷款笔数" type="Integer"/>
-<var act="InOut" name="PBV2_EfficientCardCnt_I" source-type="FEATURE" label="人行_有效贷记卡卡账户数" type="Integer"/>
-<var act="InOut" name="Apply_JobProvince_S" source-type="FEATURE" label="进件信息_工作省份" type="String"/>
-<var act="InOut" name="Apply_CertNoPrefix2_S" source-type="FEATURE" label="进件信息_身份证号前两位" type="String"/>
-<var act="InOut" name="Apply_HomeProvince_S" source-type="FEATURE" label="进件信息_居住省份" type="String"/>
-<var act="InOut" name="PBV2_Count_I" source-type="FEATURE" label="人行_人行报告数 " type="Integer"/>
-<var act="InOut" name="Apply_Age_I" source-type="FEATURE" label="进件信息_年龄 " type="Integer"/>
-<var act="InOut" name="Apply_JobName_S" source-type="FEATURE" label="进件信息_单位名称" type="String"/>
-<var act="InOut" name="Apply_JobType_S" source-type="FEATURE" label="进件信息_职业信息选项" type="String"/>
-<var act="InOut" name="Apply_CertNoValidDay_I" source-type="FEATURE" label="进件信息_身份证有效期" type="Integer"/>
-<var act="InOut" name="Apply_Contact1Name_S" source-type="FEATURE" label="进件信息_联系人1名字" type="String"/>
-<var act="InOut" name="Apply_Contact2Name_S" source-type="FEATURE" label="进件信息_联系人2名字" type="String"/>
-<var act="InOut" name="Apply_LeastRefuseDays_I" source-type="FEATURE" label="进件信息_最近一次拒绝间隔天数" type="Integer"/>
-<var act="InOut" name="BK_OverdueNowDay_I" source-type="FEATURE" label="行内_当前逾期天数" type="Integer"/>
-<var act="InOut" name="BK_OverdueMaxDay_I" source-type="FEATURE" label="行内_历史最大逾期天数" type="Integer"/>
-<var act="InOut" name="BK_IdverResult_S" source-type="FEATURE" label="行内_实名验证结果" type="String"/>
-<var act="InOut" name="Apply_Mobile_S" source-type="FEATURE" label="进件信息_申请人手机号" type="String"/>
-<var act="InOut" name="Apply_Contact1_Mobile_S" source-type="FEATURE" label="进件信息_第一联系人手机号" type="String"/>
-<var act="InOut" name="Apply_Contact2_Mobile_S" source-type="FEATURE" label="进件信息_第二联系人手机号" type="String"/>
-<var act="InOut" name="Apply_MobilePrefix3_S" source-type="FEATURE" label="进件信息_手机号码前三位" type="String"/>
-<var act="InOut" name="Apply_MobilePrefix4_S" source-type="FEATURE" label="进件信息_手机号码前四位" type="String"/>
-<var act="InOut" name="Apply_Contact1_MobilePrefix3_S" source-type="FEATURE" label="进件信息_联系人1手机号码前三位" type="String"/>
-<var act="InOut" name="Apply_Contact1_MobilePrefix4_S" source-type="FEATURE" label="进件信息_联系人1手机号码前四位" type="String"/>
-<var act="InOut" name="Apply_Contact2_MobilePrefix3_S" source-type="FEATURE" label="进件信息_联系人2手机号码前三位" type="String"/>
-<var act="InOut" name="Apply_Contact2_MobilePrefix4_S" source-type="FEATURE" label="进件信息_联系人2手机号码前四位" type="String"/>
-<var act="InOut" name="BR_TelStatus_S" source-type="FEATURE" label="百融_手机在网状态" type="String"/>
-<var act="InOut" name="BR_TelPeriodValue_S" source-type="FEATURE" label="百融_手机在网时长" type="String"/>
-<var act="InOut" name="BR_TelCheckResult_S" source-type="FEATURE" label="百融_手机三要素验证结果" type="String"/>
-<var act="InOut" name="BR_Contact1_TelStatus_S" source-type="FEATURE" label="百融_联系人1手机在网状态" type="String"/>
-<var act="InOut" name="BR_Contact2_TelStatus_S" source-type="FEATURE" label="百融_联系人2手机在网状态" type="String"/>
-<var act="InOut" name="Apply_LBSCity_S" source-type="FEATURE" label="进件信息_授信或用信时的定位城市" type="String"/>
-<var act="InOut" name="Apply_JobCity_S" source-type="FEATURE" label="进件信息_工作城市" type="String"/>
-<var act="InOut" name="Apply_HomeCity_S" source-type="FEATURE" label="进件信息_居住城市" type="String"/>
-<var act="InOut" name="Apply_CreditLBSCity_S" source-type="FEATURE" label="进件信息_用信对应的授信定位城市" type="String"/>
-<var act="InOut" name="BK_BlackListJLL_I" source-type="FEATURE" label="行内_伽利略黑名单" type="Integer"/>
-<var act="InOut" name="BK_BlackListDowjones_I" source-type="FEATURE" label="行内_道琼斯黑名单" type="Integer"/>
-<var act="InOut" name="BK_BlackListCredit_I" source-type="FEATURE" label="行内_信管黑名单" type="Integer"/>
-<var act="InOut" name="BK_BlackListCore_I" source-type="FEATURE" label="行内_核心黑名单" type="Integer"/>
-<var act="InOut" name="BK_Contact1_BlackListJLL_I" source-type="FEATURE" label="行内_联系人1伽利略黑名单" type="Integer"/>
-<var act="InOut" name="BK_Contact1_BlackListDowjones_I" source-type="FEATURE" label="行内_联系人1道琼斯黑名单" type="Integer"/>
-<var act="InOut" name="BK_Contact1_BlackListCredit_I" source-type="FEATURE" label="行内_联系人1信管黑名单" type="Integer"/>
-<var act="InOut" name="BK_Contact1_BlackListCore_I" source-type="FEATURE" label="行内_联系人1核心黑名单" type="Integer"/>
-<var act="InOut" name="BK_Contact2_BlackListJLL_I" source-type="FEATURE" label="行内_联系人2伽利略黑名单" type="Integer"/>
-<var act="InOut" name="BK_Contact2_BlackListDowjones_I" source-type="FEATURE" label="行内_联系人2道琼斯黑名单" type="Integer"/>
-<var act="InOut" name="BK_Contact2_BlackListCredit_I" source-type="FEATURE" label="行内_联系人2信管黑名单" type="Integer"/>
-<var act="InOut" name="BK_Contact2_BlackListCore_I" source-type="FEATURE" label="行内_联系人2核心黑名单" type="Integer"/>
-<var act="InOut" name="BK_IfAffiliated_S" source-type="FEATURE" label="行内_银行关联人命中结果" type="String"/>
-<var act="InOut" name="BR_BadInfoFlagCount_I" source-type="FEATURE" label="百融_命中不良标签" type="Integer"/>
-<var act="InOut" name="BR_IdBKFraudCount_I" source-type="FEATURE" label="百融_身份证号银行资信不佳标签" type="Integer"/>
-<var act="InOut" name="BR_IdNotBKFraudCount_I" source-type="FEATURE" label="百融_身份证号非银资信不佳标签" type="Integer"/>
-<var act="InOut" name="BR_CellBKFraudCount_I" source-type="FEATURE" label="百融_手机号银行资信不佳标签" type="Integer"/>
-<var act="InOut" name="BR_CellNotBKFraudCount_I" source-type="FEATURE" label="百融_手机号非银资信不佳标签" type="Integer"/>
-<var act="InOut" name="BR_IdBKLostCount_I" source-type="FEATURE" label="百融_身份证号银行高风险标签" type="Integer"/>
-<var act="InOut" name="BR_IdNotBKLostCount_I" source-type="FEATURE" label="百融_身份证号非银高风险标签" type="Integer"/>
-<var act="InOut" name="BR_CellBKLostCount_I" source-type="FEATURE" label="百融_手机号银行高风险标签" type="Integer"/>
-<var act="InOut" name="BR_CellNotBKLostCount_I" source-type="FEATURE" label="百融_手机号非银高风险标签" type="Integer"/>
-<var act="InOut" name="BR_IdBKBadCount_I" source-type="FEATURE" label="百融_身份证号银行中风险标签" type="Integer"/>
-<var act="InOut" name="BR_IdNotBKBadCount_I" source-type="FEATURE" label="百融_身份证号非银中风险标签" type="Integer"/>
-<var act="InOut" name="BR_CellBKBadCount_I" source-type="FEATURE" label="百融_手机号银行中风险标签" type="Integer"/>
-<var act="InOut" name="BR_CellNotBKBadCount_I" source-type="FEATURE" label="百融_手机号非银中风险标签" type="Integer"/>
-<var act="InOut" name="BR_IdBKOverdueCount_I" source-type="FEATURE" label="百融_身份证号银行一般风险标签" type="Integer"/>
-<var act="InOut" name="BR_IdNotBKOverdueCount_I" source-type="FEATURE" label="百融_身份证号非银一般风险标签" type="Integer"/>
-<var act="InOut" name="BR_CellBKOverdueCount_I" source-type="FEATURE" label="百融_手机号银行一般风险标签" type="Integer"/>
-<var act="InOut" name="BR_CellNotBKOverdueCount_I" source-type="FEATURE" label="百融_手机号非银一般风险标签" type="Integer"/>
-<var act="InOut" name="TY_PublicInfoShixinCode_S" source-type="FEATURE" label="天御_失信风险码" type="String"/>
-<var act="InOut" name="HF_ZhixingCount_I" source-type="FEATURE" label="汇法_命中执行标签" type="Integer"/>
-<var act="InOut" name="HF_ShixinCount_I" source-type="FEATURE" label="汇法_失信老赖标签" type="Integer"/>
-<var act="InOut" name="HF_XiangaoCount_I" source-type="FEATURE" label="汇法_限制高消费标签" type="Integer"/>
-<var act="InOut" name="HF_XianchuCount_I" source-type="FEATURE" label="汇法_限制出入境标签" type="Integer"/>
-<var act="InOut" name="HF_ZuifanCount_I" source-type="FEATURE" label="汇法_罪犯及嫌疑人标签" type="Integer"/>
-<var act="InOut" name="BR_CourtBadCount_I" source-type="FEATURE" label="百融_法院失信标签" type="Integer"/>
-<var act="InOut" name="BR_CourtExecutedCount_I" source-type="FEATURE" label="百融_法院被执行标签" type="Integer"/>
-<var act="InOut" name="TY_MoreFraudCode_S" source-type="FEATURE" label="天御_多重互金行为欺诈" type="String"/>
-<var act="InOut" name="TY_CellFraudCode1_S" source-type="FEATURE" label="天御_手机号风险码" type="String"/>
-<var act="InOut" name="TY_DeviceFraudCode2_S" source-type="FEATURE" label="天御_设备风险码" type="String"/>
-<var act="InOut" name="TY_TightFraudCode_S" source-type="FEATURE" label="天御_资金紧张风险码" type="String"/>
-<var act="InOut" name="TY_PaymentBehaviorCode_S" source-type="FEATURE" label="天御_支付行为异常风险码" type="String"/>
-<var act="InOut" name="TY_LostFraudCode_S" source-type="FEATURE" label="天御_失联风险码" type="String"/>
-<var act="InOut" name="TY_SusAccess_I" source-type="FEATURE" label="天御_命中疑似准入风险" type="Integer"/>
-<var act="InOut" name="Apply_D30MobileInContactCnt_I" source-type="FEATURE" label="进件信息_近30天内申请件中申请人手机号作为联系人出现的次数" type="Integer"/>
-<var act="InOut" name="Apply_D30Contact1InContactCnt_I" source-type="FEATURE" label="进件信息_近30天内申请件中第一联系人手机号作为联系人出现的次数" type="Integer"/>
-<var act="InOut" name="Apply_D30Contact2InContactCnt_I" source-type="FEATURE" label="进件信息_近30天内申请件中第二联系人手机号作为联系人出现的次数" type="Integer"/>
-<var act="InOut" name="TY_QTScore_I" source-type="FEATURE" label="天御_圈团风险浓度分" type="Integer"/>
-<var act="InOut" name="BR_M3_id_x_cell_cnt_I" source-type="FEATURE" label="百融_近3月身份证关联手机号个数" type="Integer"/>
-<var act="InOut" name="BR_M3_cell_x_id_cnt_I" source-type="FEATURE" label="百融_近3月手机号关联身份证号个数" type="Integer"/>
-<var act="InOut" name="BR_M3_cell_x_device_cnt_I" source-type="FEATURE" label="百融_近3月手机号关联设备个数" type="Integer"/>
-<var act="InOut" name="BR_M6_id_x_cell_cnt_I" source-type="FEATURE" label="百融_近6月身份证关联手机号个数" type="Integer"/>
-<var act="InOut" name="BR_M6_cell_x_id_cnt_I" source-type="FEATURE" label="百融_近6月手机号关联身份证号个数" type="Integer"/>
-<var act="InOut" name="BR_M6_cell_x_device_cnt_I" source-type="FEATURE" label="百融_近6月手机号关联设备个数" type="Integer"/>
-<var act="InOut" name="BR_cell_x_id_cnt_I" source-type="FEATURE" label="百融_手机号关联身份证个数" type="Integer"/>
-<var act="InOut" name="BR_id_x_cell_cnt_I" source-type="FEATURE" label="百融_身份证关联手机号个数" type="Integer"/>
-<var act="InOut" name="BR_frg_list_level_I" source-type="FEATURE" label="百融_查询人欺诈团伙等级" type="Integer"/>
-<var act="InOut" name="BR_cell_x_device_cnt_I" source-type="FEATURE" label="百融_手机号关联设备个数" type="Integer"/>
-<var act="InOut" name="PBV2_NewStateAbnormalCnt_I" source-type="FEATURE" label="人行_最新表现信息段中账户状态异常的账户数" type="Integer"/>
-<var act="InOut" name="PBV2_PayStateAbnormalCnt_I" source-type="FEATURE" label="人行_还款状态异常账户数" type="Integer"/>
-<var act="InOut" name="PBV2_LastStateAbnormalCnt_I" source-type="FEATURE" label="人行_最近一次月度表现信息段中账户状态异常的账户数" type="Integer"/>
-<var act="InOut" name="PBV2_LastOverdueAbnomalCnt_I" source-type="FEATURE" label="人行_当前逾期期数异常账户数" type="Integer"/>
-<var act="InOut" name="PBV2_BadAccountCount_I" source-type="FEATURE" label="人行_呆账汇总账户数" type="Integer"/>
-<var act="InOut" name="PBV2_ArrearAssetDispositionCnt_I" source-type="FEATURE" label="人行_资产处置汇总账户数数" type="Integer"/>
-<var act="InOut" name="PBV2_ArrearAdvanceAccountCnt_I" source-type="FEATURE" label="人行_垫款业务汇总账户数数" type="Integer"/>
-<var act="InOut" name="PBV2_AssetDispositionCount_I" source-type="FEATURE" label="人行_资产处置账户数" type="Integer"/>
-<var act="InOut" name="PBV2_AssureRepayCollectionCnt_I" source-type="FEATURE" label="人行_代偿债务为催收的账户数" type="Integer"/>
-<var act="InOut" name="PBV2_Class5BadCount_I" source-type="FEATURE" label="人行_五级分类不良笔数" type="Integer"/>
-<var act="InOut" name="PBV2_SpecialTradeBadCount_I" source-type="FEATURE" label="人行_特殊交易中严重违约笔数_展期延期担保人代偿以资抵债" type="Integer"/>
-<var act="InOut" name="PBV2_LoanBadCount_I" source-type="FEATURE" label="人行_贷款严重违约笔数_逾期呆账银行止付担保物不足强制平仓司法追偿" type="Integer"/>
-<var act="InOut" name="PBV2_CreditCardBadCount_I" source-type="FEATURE" label="人行_贷记卡准贷记卡严重违约笔数_冻结银行止付呆账司法追偿" type="Integer"/>
-<var act="InOut" name="PBV2_M24SCCBadDeqlTimes_I" source-type="FEATURE" label="人行_准贷记卡近24期严重逾期次数" type="Integer"/>
-<var act="InOut" name="PBV2_M24CCDadDeqlTimes_I" source-type="FEATURE" label="人行_贷记卡近24期严重逾期次数" type="Integer"/>
-<var act="InOut" name="PBV2_M24PLDadDeqlTimes_I" source-type="FEATURE" label="人行_贷款近24期严重逾期次数" type="Integer"/>
-<var act="InOut" name="PBV2_M3PLMaxDeqlPeriods_I" source-type="FEATURE" label="人行_贷款最近3个月最大连续逾期期数" type="Integer"/>
-<var act="InOut" name="PBV2_M3CCMaxDeqlPeriods_I" source-type="FEATURE" label="人行_贷记卡最近3个月最大连续逾期期数" type="Integer"/>
-<var act="InOut" name="PBV2_M3CCOverdueMaxAmount_D" source-type="FEATURE" label="人行_近3个月贷记卡最大逾期金额" type="Double"/>
-<var act="InOut" name="PBV2_M6MaxOverduePeriods_I" source-type="FEATURE" label="人行_近6个月最大逾期期数" type="Integer"/>
-<var act="InOut" name="PBV2_M6SeriesOverduePeriods_I" source-type="FEATURE" label="人行_近6个月连续逾期期数" type="Integer"/>
-<var act="InOut" name="PBV2_M12MaxOverduePeriods_I" source-type="FEATURE" label="人行_近12个月最大逾期期数" type="Integer"/>
-<var act="InOut" name="PBV2_M24MaxOverduePeriods_I" source-type="FEATURE" label="人行_近24个月最大逾期期数" type="Integer"/>
-<var act="InOut" name="PBV2_M24SeriesOverduePeriods_I" source-type="FEATURE" label="人行_近24个月连续逾期期数" type="Integer"/>
-<var act="InOut" name="PBV2_M24AccOverduePeriods_I" source-type="FEATURE" label="人行_近24个月累计逾期期数" type="Integer"/>
-<var act="InOut" name="PBV2_M24LoanAccOverduePeriods_I" source-type="FEATURE" label="人行_近24个月贷款累计逾期期数" type="Integer"/>
-<var act="InOut" name="PBV2_M24CardAccOverduePeriods_I" source-type="FEATURE" label="人行_近24个月贷记卡累计逾期期数" type="Integer"/>
-<var act="InOut" name="PBV2_Y5LoanOverdueAccountCnt_I" source-type="FEATURE" label="人行_近5年发生过逾期的贷款账户数" type="Integer"/>
-<var act="InOut" name="TY_M1DeliqPlatformCount_I" source-type="FEATURE" label="天御_1个月内申请人逾期平台数" type="Integer"/>
-<var act="InOut" name="TY_M3DeliqPlatformCount_I" source-type="FEATURE" label="天御_3个月内申请人逾期平台数" type="Integer"/>
-<var act="InOut" name="TY_M6DeliqPlatformCount_I" source-type="FEATURE" label="天御_6个月内申请人逾期平台数" type="Integer"/>
-<var act="InOut" name="PBV2_RelevantRepayClass5BadCnt_I" source-type="FEATURE" label="人行_相关还款责任五级分类不良笔数" type="Integer"/>
-<var act="InOut" name="PBV2_RelevantRepayCurDeqlCnt_I" source-type="FEATURE" label="人行_相关还款责任当前逾期账户数" type="Integer"/>
-<var act="InOut" name="PBV2_ForceExecutionCount_I" source-type="FEATURE" label="人行_强制执行记录数" type="Integer"/>
-<var act="InOut" name="PBV2_TaxArreaCount_I" source-type="FEATURE" label="人行_欠税记录条数" type="Integer"/>
-<var act="InOut" name="PBV2_CivilJudgmentDefaultCnt_I" source-type="FEATURE" label="人行_民事判断违约记录数" type="Integer"/>
-<var act="InOut" name="PBV2_AdminPunishmentCnt_I" source-type="FEATURE" label="人行_行政处罚记录数" type="Integer"/>
-<var act="InOut" name="PBV2_SalvationCnrt_I" source-type="FEATURE" label="人行_低保救助记录记录数" type="Integer"/>
-<var act="InOut" name="PBV2_CardMiniPaymentCount_I" source-type="FEATURE" label="人行_贷记卡最低还款账户数" type="Integer"/>
-<var act="InOut" name="PBV2_CardM6AvgUsedAmount_D" source-type="FEATURE" label="人行_未销户贷记卡最近6个月平均使用额度" type="Double"/>
-<var act="InOut" name="PBV2_CardM6AvgUsedRatio_D" source-type="FEATURE" label="人行_贷记卡近6个月平均额度使用率" type="Double"/>
-<var act="InOut" name="PBV2_CardCurUsedRatio_D" source-type="FEATURE" label="人行_贷记卡当前额度使用率" type="Double"/>
-<var act="InOut" name="PBV2_CardCurUsedAmt_D" source-type="FEATURE" label="人行_贷记卡当前使用额度" type="Double"/>
-<var act="InOut" name="BK_TotalBalance_D" source-type="FEATURE" label="行内_贷款总余额" type="Double"/>
-<var act="InOut" name="BK_CreditBalance_D" source-type="FEATURE" label="行内_信用贷款总余额" type="Double"/>
-<var act="InOut" name="BK_TotalLimitDay_D" source-type="FEATURE" label="行内_当日累计放款金额" type="Double"/>
-<var act="InOut" name="PBV2_CardCurUsedRatioThen50_I" source-type="FEATURE" label="人行_额度使用率大于50的信用卡张数" type="Integer"/>
-<var act="InOut" name="PBV2_CardCount_I" source-type="FEATURE" label="人行_信用卡总张数" type="Integer"/>
-<var act="InOut" name="PBV2_OperatLoanCnt_I" source-type="FEATURE" label="人行_未结清经营性贷款笔数" type="Integer"/>
-<var act="InOut" name="PBV2_SpecLoanCnt_I" source-type="FEATURE" label="人行_未结清非银行金融机构贷款笔数" type="Integer"/>
-<var act="InOut" name="PBV2_Creditloan_Bal_D" source-type="FEATURE" label="人行_未结清信用贷款余额" type="Double"/>
-<var act="InOut" name="PBV2_CurCreditLoanBankOrg_D" source-type="FEATURE" label="人行_当前信用贷款银行机构数" type="Double"/>
-<var act="InOut" name="PBV2_CurCreditLoanNoBankOrg_D" source-type="FEATURE" label="人行_当前信用贷款非银行机构数" type="Double"/>
-<var act="InOut" name="PBV2_UnclearNoBankLoanCnt_I" source-type="FEATURE" label="人行_非银行金融机构未结清贷款笔数" type="Integer"/>
-<var act="InOut" name="PBV2_M3AddUnclearLoanCnt_I" source-type="FEATURE" label="人行_近3个月新增尚未结清贷款笔数" type="Integer"/>
-<var act="InOut" name="PBV2_M6AddUnclearLoanCnt_I" source-type="FEATURE" label="人行_近6个月新增尚未结清贷款笔数" type="Integer"/>
-<var act="InOut" name="PBV2_CurTotalDebt_D" source-type="FEATURE" label="人行_当前负债总额" type="Double"/>
-<var act="InOut" name="TY_D7DebtPlatformCount_I" source-type="FEATURE" label="天御_7天内申请人共债平台数" type="Integer"/>
-<var act="InOut" name="TY_M1DebtPlatformCount_I" source-type="FEATURE" label="天御_1个月内申请人共债平台数" type="Integer"/>
-<var act="InOut" name="TY_M3DebtPlatformCount_I" source-type="FEATURE" label="天御_3个月内申请人共债平台数" type="Integer"/>
-<var act="InOut" name="PBV2_M3QueryRecordCount_I" source-type="FEATURE" label="人行_最近3个月贷款信用卡及客户准入资格审查查询次数" type="Integer"/>
-<var act="InOut" name="PBV2_M1QueryRecordCount_I" source-type="FEATURE" label="人行_最近1个月贷款信用卡及本人查询次数" type="Integer"/>
-<var act="InOut" name="PBV2_M6QueryRecordCnt_I" source-type="FEATURE" label="人行_近6个月贷款信用卡保前审查查询次数" type="Integer"/>
-<var act="InOut" name="PBV2_M6LendCnt_I" source-type="FEATURE" label="人行_近6个月放款次数" type="Integer"/>
-<var act="InOut" name="PBV2_M12QueryRecordCnt_I" source-type="FEATURE" label="人行_近12个月贷款信用卡保前审查查询次数" type="Integer"/>
-<var act="InOut" name="PBV2_M12LendCnt_I" source-type="FEATURE" label="人行_近12个月放款次数" type="Integer"/>
-<var act="InOut" name="TY_D7IdNoPlatformCount_I" source-type="FEATURE" label="天御_7天内身份证申请命中平台数" type="Integer"/>
-<var act="InOut" name="TY_M1IdNoPlatformCount_I" source-type="FEATURE" label="天御_1个月内身份证申请命中平台数" type="Integer"/>
-<var act="InOut" name="TY_M3IdNoPlatformCount_I" source-type="FEATURE" label="天御_3个月内身份证申请命中平台数" type="Integer"/>
-<var act="InOut" name="BR_D7CellBankCount_I" source-type="FEATURE" label="百融_近7天手机号银行申请机构数" type="Integer"/>
-<var act="InOut" name="BR_D7IdBankCount_I" source-type="FEATURE" label="百融_近7天身份证银行申请机构数" type="Integer"/>
-<var act="InOut" name="BR_D7CellNBankCount_I" source-type="FEATURE" label="百融_近7天手机号非银申请机构数" type="Integer"/>
-<var act="InOut" name="BR_D7IdNBankCount_I" source-type="FEATURE" label="百融_近7天身份证非银申请机构数" type="Integer"/>
-<var act="InOut" name="BR_D15CellBankCount_I" source-type="FEATURE" label="百融_近15天手机号银行申请机构数" type="Integer"/>
-<var act="InOut" name="BR_D15IdBankCount_I" source-type="FEATURE" label="百融_近15天身份证银行申请机构数" type="Integer"/>
-<var act="InOut" name="BR_D15CellNBankCount_I" source-type="FEATURE" label="百融_近15天手机号非银申请机构数" type="Integer"/>
-<var act="InOut" name="BR_D15IdNBankCount_I" source-type="FEATURE" label="百融_近15天身份证非银申请机构数" type="Integer"/>
-<var act="InOut" name="BR_M1CellBankCount_I" source-type="FEATURE" label="百融_近1月手机号银行申请机构数" type="Integer"/>
-<var act="InOut" name="BR_M1IdBankCount_I " source-type="FEATURE" label="百融_近1月身份证银行申请机构数" type="Integer"/>
-<var act="InOut" name="BR_M1CellNBankCount_I" source-type="FEATURE" label="百融_近1月手机号非银申请机构数" type="Integer"/>
-<var act="InOut" name="BR_M1IdNBankCount_I" source-type="FEATURE" label="百融_近1月身份证非银申请机构数" type="Integer"/>
-<var act="InOut" name="BR_M3CellBankCount_I" source-type="FEATURE" label="百融_近3月手机号银行申请机构数" type="Integer"/>
-<var act="InOut" name="BR_M3IdBankCount_I" source-type="FEATURE" label="百融_近3月身份证银行申请机构数" type="Integer"/>
-<var act="InOut" name="BR_M3CellNBankCount_I" source-type="FEATURE" label="百融_近3月手机号非银申请机构数" type="Integer"/>
-<var act="InOut" name="BR_M3IdNBankCount_I" source-type="FEATURE" label="百融_近3月身份证非银申请机构数" type="Integer"/>
-<var act="InOut" name="BR_M6CellBankCount_I" source-type="FEATURE" label="百融_近6月手机号银行申请机构数" type="Integer"/>
-<var act="InOut" name="BR_M6IdBankCount_I " source-type="FEATURE" label="百融_近6月身份证银行申请机构数" type="Integer"/>
-<var act="InOut" name="BR_M6CellNBankCount_I" source-type="FEATURE" label="百融_近6月手机号非银申请机构数" type="Integer"/>
-<var act="InOut" name="BR_M6IdNBankCount_I" source-type="FEATURE" label="百融_近6月身份证非银申请机构数" type="Integer"/>
-<var act="InOut" name="BR_M12CellBankCount_I" source-type="FEATURE" label="百融_近12月手机号银行申请机构数" type="Integer"/>
-<var act="InOut" name="BR_M12IdBankCount_I " source-type="FEATURE" label="百融_近12月身份证银行申请机构数" type="Integer"/>
-<var act="InOut" name="BR_M12CellNBankCount_I" source-type="FEATURE" label="百融_近12月手机号非银申请机构数" type="Integer"/>
-<var act="InOut" name="BR_M12IdNBankCount_I" source-type="FEATURE" label="百融_近12月身份证非银申请机构数" type="Integer"/>
-<var act="InOut" name="BR_ald_id_bank_orgnum_I" source-type="FEATURE" label="百融_当日身份证银行申请机构数" type="Integer"/>
-<var act="InOut" name="BR_ald_id_nbank_orgnum_I" source-type="FEATURE" label="百融_当日身份证非银申请机构数" type="Integer"/>
-<var act="InOut" name="BR_ald_cell_bank_orgnum_I" source-type="FEATURE" label="百融_当日手机号银行申请机构数" type="Integer"/>
-<var act="InOut" name="BR_ald_cell_nbank_orgnum_I" source-type="FEATURE" label="百融_当日手机号非银申请机构数" type="Integer"/>
-<var act="InOut" name="BR_alu_d7_id_orgnum_I" source-type="FEATURE" label="百融_近7天高风险身份证申请机构数" type="Integer"/>
-<var act="InOut" name="BR_alu_d7_cell_orgnum_I" source-type="FEATURE" label="百融_近7天高风险手机号申请机构数" type="Integer"/>
-<var act="InOut" name="BR_alu_m1_id_orgnum_I" source-type="FEATURE" label="百融_近1个月高风险身份证申请机构数" type="Integer"/>
-<var act="InOut" name="BR_alu_m1_cell_orgnum_I" source-type="FEATURE" label="百融_近1个月高风险手机号申请机构数" type="Integer"/>
-<var act="InOut" name="BR_alu_m3_id_orgnum_I" source-type="FEATURE" label="百融_近3个月高风险身份证申请机构数" type="Integer"/>
-<var act="InOut" name="BR_alu_m3_cell_orgnum_I" source-type="FEATURE" label="百融_近3个月高风险手机号申请机构数" type="Integer"/>
-<var act="InOut" name="Apply_Name_S" source-type="FEATURE" label="进件信息_申请人姓名" type="String"/>
-<var act="InOut" name="QCC_OperName_S" source-type="FEATURE" label="企查查_法人" type="String"/>
-<var act="InOut" name="QCC_StockPercent_D" source-type="FEATURE" label="企查查_申请人持股比例" type="Double"/>
-<var act="InOut" name="QCC_StartDateMob_I" source-type="FEATURE" label="企查查_成立日期距申请月份数" type="Integer"/>
-<var act="InOut" name="QCC_CoStatus_S" source-type="FEATURE" label="企查查_企业经营状态" type="String"/>
-<var act="InOut" name="QCC_LiquidationCount_I" source-type="FEATURE" label="企查查_命中清算标签" type="Integer"/>
-<var act="InOut" name="QCC_ShixinCount_I" source-type="FEATURE" label="企查查_命中失信标签" type="Integer"/>
-<var act="InOut" name="QCC_CoLevel_S" source-type="FEATURE" label="企查查_纳税信用等级" type="String"/>
-<var act="InOut" name="QCC_TOCount_I" source-type="FEATURE" label="企查查_欠税标签" type="Integer"/>
-<var act="InOut" name="QCC_PenaltyCount_I" source-type="FEATURE" label="企查查_行政处罚标签" type="Integer"/>
-<var act="InOut" name="QCC_PenaltyType_S" source-type="FEATURE" label="企查查_违法行为类型" type="String"/>
-<var act="InOut" name="QCC_BiaodiRatio_D" source-type="FEATURE" label="企查查_执行标的占比" type="Double"/>
-<var act="InOut" name="QCC_BadCount_I" source-type="FEATURE" label="企查查_申请人负面风险标签" type="Integer"/>
-<var act="InOut" name="QCC_STFCount_I" source-type="FEATURE" label="企查查_股权冻结记录数" type="Integer"/>
-<var act="InOut" name="BR_Contact1_CellBankOverdueTime_I" source-type="FEATURE" label="百融_联系人1手机号银行一般风险距今时间" type="Integer"/>
-<var act="InOut" name="BR_Contact2_CellBankOverdueTime_I" source-type="FEATURE" label="百融_联系人2手机号银行一般风险距今时间" type="Integer"/>
-<var act="InOut" name="BR_Contact1_CellNotBankOverdueTime_I" source-type="FEATURE" label="百融_联系人1手机号非银一般风险距今时间" type="Integer"/>
-<var act="InOut" name="BR_Contact2_CellNotBankOverdueTime_I" source-type="FEATURE" label="百融_联系人2手机号非银一般风险距今时间" type="Integer"/>
-<var act="InOut" name="BR_Contact1_CellBKLostCount_I" source-type="FEATURE" label="百融_联系人1手机号银行高风险标签" type="Integer"/>
-<var act="InOut" name="BR_Contact1_CellNotBKLostCount_I" source-type="FEATURE" label="百融_联系人1手机号非银高风险标签" type="Integer"/>
-<var act="InOut" name="BR_Contact2_CellBKLostCount_I" source-type="FEATURE" label="百融_联系人2手机号银行高风险标签" type="Integer"/>
-<var act="InOut" name="BR_Contact2_CellNotBKLostCount_I" source-type="FEATURE" label="百融_联系人2手机号非银高风险标签" type="Integer"/>
-<var act="InOut" name="BR_Contact1_CellBKFraudCount_I" source-type="FEATURE" label="百融_联系人1手机号银行资信不佳标签" type="Integer"/>
-<var act="InOut" name="BR_Contact1_CellNotBKFraudCount_I" source-type="FEATURE" label="百融_联系人1手机号非银资信不佳标签" type="Integer"/>
-<var act="InOut" name="BR_Contact2_CellBKFraudCount_I" source-type="FEATURE" label="百融_联系人2手机号银行资信不佳标签" type="Integer"/>
-<var act="InOut" name="BR_Contact2_CellNotBKFraudCount_I" source-type="FEATURE" label="百融_联系人2手机号非银资信不佳标签" type="Integer"/>
-<var act="InOut" name="BR_Contact1_CellNotBKBadCount_I" source-type="FEATURE" label="百融_联系人1手机号非银中风险标签" type="Integer"/>
-<var act="InOut" name="BR_Contact2_CellNotBKBadCount_I" source-type="FEATURE" label="百融_联系人2手机号非银中风险标签" type="Integer"/>
-<var act="InOut" name="BR_Contact1_CellNotBankRefuseTime_I" source-type="FEATURE" label="百融_联系人1手机号非银拒绝距今时间" type="Integer"/>
-<var act="InOut" name="BR_Contact2_CellNotBankRefuseTime_I" source-type="FEATURE" label="百融_联系人2手机号非银拒绝距今时间" type="Integer"/>
-<var act="InOut" name="BR_M12_id_x_cell_cnt_I" source-type="FEATURE" label="百融_近12月身份证关联手机号个数" type="Integer"/>
-<var act="InOut" name="BR_M12_cell_x_id_cnt_I" source-type="FEATURE" label="百融_近12月手机号关联身份证号个数" type="Integer"/>
-<var act="InOut" name="BR_M12_id_x_device_cnt_I" source-type="FEATURE" label="百融_近12月身份证关联设备个数" type="Integer"/>
-<var act="InOut" name="BR_M12_cell_x_device_cnt_I" source-type="FEATURE" label="百融_近12月手机号关联设备个数" type="Integer"/>
-<var act="InOut" name="BR_id_x_cell_notmat_days_I" source-type="FEATURE" label="百融_身份证号关联的非申请手机号的最近查询距今天数" type="Integer"/>
-<var act="InOut" name="BR_cell_x_id_notmat_days_I" source-type="FEATURE" label="百融_手机号关联的非申请身份证号的最近查询距今天数" type="Integer"/>
-<var act="InOut" name="BR_Contact1_m12_linkman_cell_x_id_cnt_I" source-type="FEATURE" label="百融_近12月联系人1手机号关联申请人身份证号个数" type="Integer"/>
-<var act="InOut" name="BR_Contact1_m12_linkman_cell_x_cell_cnt_I" source-type="FEATURE" label="百融_近12月联系人1手机号关联申请人手机号个数" type="Integer"/>
-<var act="InOut" name="BR_Contact2_m12_linkman_cell_x_id_cnt_I" source-type="FEATURE" label="百融_近12月联系人2手机号关联申请人身份证号个数" type="Integer"/>
-<var act="InOut" name="BR_Contact2_m12_linkman_cell_x_cell_cnt_I" source-type="FEATURE" label="百融_近12月联系人2手机号关联申请人手机号个数" type="Integer"/>
-<var act="InOut" name="BR_M6_cell_x_mail_cnt_I" source-type="FEATURE" label="百融_近6月手机号关联邮箱个数" type="Integer"/>
-<var act="InOut" name="BR_frg_group_num_S" source-type="FEATURE" label="百融_查询人欺诈团伙群组规模" type="String"/>
-<var act="InOut" name="TY_FraudScore_I" source-type="FEATURE" label="天御_反欺诈评分" type="Integer"/>
-<var act="InOut" name="PBV2_HouseLoanCount_I" source-type="FEATURE" label="人行_个人住房贷款笔数" type="Integer"/>
-<var act="InOut" name="PBV2_LoancardOpenMaxMonthCount_I" source-type="FEATURE" label="人行_贷记卡最早帐龄" type="Integer"/>
-<var act="InOut" name="PBV2_LoancardLimitUsedThan60Count_I" source-type="FEATURE" label="人行_贷记卡额度使用率大于等于百分之60的账户个数" type="Integer"/>
-<var act="InOut" name="PBV2_LoanUnclearRatio_D" source-type="FEATURE" label="人行_未结清个贷账户数占比" type="Double"/>
-<var act="InOut" name="PBV2_M24QueryWeight_D" source-type="FEATURE" label="人行_24个月查询加权" type="Double"/>
-<var act="InOut" name="PBV2_M6OverdueMaxCount_Card3_I" source-type="FEATURE" label="人行_近6个月最大连续逾期期数_专3" type="Integer"/>
-<var act="InOut" name="PBV2_LastGuaranteeMonthCount_I" source-type="FEATURE" label="人行_最近一次担保审批查询距今月份数" type="Integer"/>
-<var act="InOut" name="PBV2_OverdueLoanCount_I" source-type="FEATURE" label="人行_贷款逾期笔数" type="Integer"/>
-<var act="InOut" name="PBV2_LoancardRepayRatio_D" source-type="FEATURE" label="人行_贷记卡还款率" type="Double"/>
-<var act="InOut" name="BK_HL_Total_D" source-type="FEATURE" label="银行房贷_鉴价总值" type="Double"/>
-<var act="InOut" name="BK_HL_LTV_D" source-type="FEATURE" label="银行房贷_授信贷放成数" type="Double"/>
-<var act="InOut" name="BK_HL_CLTV_D" source-type="FEATURE" label="银行房贷_目前贷放成数" type="Double"/>
-<var act="InOut" name="BK_HL_PayYear_D" source-type="FEATURE" label="银行房贷_已还年限" type="Double"/>
-<var act="InOut" name="BK_FarmerIncome_D" source-type="FEATURE" label="银行农户_年收入" type="Double"/>
-<var act="InOut" name="BK_Duty_S" source-type="FEATURE" label="银行_工作职级" type="String"/>
-<var act="InOut" name="BK_WorkTime_I" source-type="FEATURE" label="银行_工作年限" type="Integer"/>
-<var act="InOut" name="BK_WorkIncome_D" source-type="FEATURE" label="银行_工作收入" type="Double"/>
-<var act="InOut" name="BK_ParkingPrice_D" source-type="FEATURE" label="银行_车位价格" type="Double"/>
-<var act="InOut" name="BK_HL_Count_I" source-type="FEATURE" label="银行_房贷标签" type="Integer"/>
-<var act="InOut" name="PBV2_HL_Count_I" source-type="FEATURE" label="人行_本行房贷标签" type="Integer"/>
-<var act="InOut" name="BK_StartDateMob_I" source-type="FEATURE" label="银行_经营年限" type="Integer"/>
-<var act="InOut" name="BK_TaxAvg_D" source-type="FEATURE" label="银行_月均纳税额" type="Double"/>
-<var act="InOut" name="BK_WeightedTaxPercent_D" source-type="FEATURE" label="银行_经营主体加权税率" type="Double"/>
-<var act="InOut" name="BK_M6TaxMOM_D" source-type="FEATURE" label="银行_近半年纳税额环比" type="Double"/>
-<var act="InOut" name="BK_TobaccoGear_S" source-type="FEATURE" label="银行烟草贷_烟草档位" type="String"/>
-<var act="InOut" name="BK_TobaccoPayAvg_D" source-type="FEATURE" label="银行烟草贷_月均订烟金额" type="Double"/>
-<var act="InOut" name="PBV2_LargeInstallmentmonthpayment_D" source-type="FEATURE" label="人行_贷记卡大额专项分期月度应还款额" type="Double"/>
-<var act="InOut" name="PBV2_InstalmentMonthPay_D" source-type="FEATURE" label="人行_分期类贷款当前月度应还款额" type="Double"/>
-<var act="InOut" name="PBV2_IrregularityMonthPay_D" source-type="FEATURE" label="人行_不定期归还贷款月均余额" type="Double"/>
-<var act="InOut" name="PBV2_AFLastMob_I" source-type="FEATURE" label="人行_公积金最近缴交日期与申请日期月份数差" type="Integer"/>
-<var act="InOut" name="PBV2_AF_Pay_D" source-type="FEATURE" label="人行_正常缴交状态公积金月缴存额" type="Double"/>
-<var act="InOut" name="PBV2_AF_OwnPercent_D" source-type="FEATURE" label="人行_公积金个人缴存比例" type="Double"/>
-<var act="InOut" name="PBV2_AF_ComPercent_D" source-type="FEATURE" label="人行_公积金单位缴存比例" type="Double"/>
-<var act="InOut" name="PBV2_NormalHLCount_I" source-type="FEATURE" label="人行_按揭房贷笔数" type="Integer"/>
-<var act="InOut" name="PBV2_HLScheduledAmount_D" source-type="FEATURE" label="人行_房贷月供" type="Double"/>
-<var act="InOut" name="PBV2_AF_Aera_S" source-type="FEATURE" label="人行_住房公积金公积金参缴地" type="String"/>
-<var act="InOut" name="PBV2_LCOpenMaxMonthCount_I" source-type="FEATURE" label="人行_正常及未激活贷记卡最大开卡账龄月份数" type="Integer"/>
-<var act="InOut" name="PBV2_LoanCardAvgLimitAmt_D" source-type="FEATURE" label="人行_贷记卡平均授信额度" type="Double"/>
-<var act="InOut" name="PBV2_MTG_MaxAmt_D" source-type="FEATURE" label="人行_单笔房贷最大月供金额" type="Double"/>
-<var act="InOut" name="PBV2_UnclearHouseLoanRepaidMonth_I" source-type="FEATURE" label="人行_未结清房贷已还月份数" type="Integer"/>
-<var act="InOut" name="PBV2_LCMaxSingleLimit_D" source-type="FEATURE" label="人行_未销户贷记卡单家行最高授信额" type="Double"/>
-<var act="InOut" name="PBV2_CardAvgLimit_D" source-type="FEATURE" label="人行_未销户贷记卡平均授信额度" type="Double"/>
-<var act="InOut" name="PBV2_MaxPCLRepayAmt_D" source-type="FEATURE" label="人行_最高授信信用贷款月均还款额" type="Double"/>
-<var act="InOut" name="PBV2_MinPCLRepayAmt_D" source-type="FEATURE" label="人行_最低授信信用贷款月均还款额" type="Double"/>
-<var act="InOut" name="PBV2_CreditLoanRepaidMonth_I" source-type="FEATURE" label="人行_未结清信用类消费贷款已还月份" type="Integer"/>
-<var act="InOut" name="PBV2_CardOrgCnt_I" source-type="FEATURE" label="人行_贷记卡机构数" type="Integer"/>
-<var act="InOut" name="PBV2_PCLBalance_D" source-type="FEATURE" label="人行_未结清消费贷款余额" type="Double"/>
-<var act="InOut" name="PBV2_Industry_S" source-type="FEATURE" label="人行_行业" type="String"/>
-<var act="InOut" name="PBV2_TS_PBGoodCompanyType_S" source-type="FEATURE" label="人行_正常缴交状态公积金优质企业类型" type="String"/>
-<var act="InOut" name="PBV2_TS_PBPIPGoodCompanyType_S" source-type="FEATURE" label="人行_工作单位企业类型" type="String"/>
-</category>
-<category name="临时变量" type="Custom" clazz="com.qsq.dmp.common.utils.DmpSyncMap">
-<var act="InOut" name="Result_RulesPL" source-type="SELF" label="准入规则命中结果" type="String"/>
-<var act="InOut" name="Result_RulesAF" source-type="SELF" label="反欺诈规则命中结果" type="String"/>
-<var act="InOut" name="Result_RulesCD" source-type="SELF" label="信用评估规则命中结果" type="String"/>
-<var act="InOut" name="Result_RulesEA" source-type="SELF" label="经营评估规则命中结果" type="String"/>
-<var act="InOut" name="Result_Rules" source-type="SELF" label="规则命中结果" type="String"/>
-<var act="InOut" name="Result_Rules_D" source-type="SELF" label="强规则命中结果" type="String"/>
-<var act="InOut" name="Result_Rules_R" source-type="SELF" label="弱规则命中结果" type="String"/>
-<var act="InOut" name="ML0001" source-type="SELF" label="反欺诈模型准入结果" type="String"/>
-<var act="InOut" name="ML0001_Threshold" source-type="SELF" label="反欺诈模型阈值" type="Double"/>
-<var act="InOut" name="ML0001_Score" source-type="SELF" label="反欺诈模型评分" type="Double"/>
-<var act="InOut" name="ML0002" source-type="SELF" label="信用模型准入结果" type="String"/>
-<var act="InOut" name="ML0002_Threshold" source-type="SELF" label="信用模型阈值" type="Double"/>
-<var act="InOut" name="ML0002_Score" source-type="SELF" label="信用模型评分" type="Double"/>
-<var act="InOut" name="Result_Access" source-type="SELF" label="审批流程结果" type="String"/>
-<var act="InOut" name="Result_ProCustomerType" source-type="SELF" label="产品客群标签" type="String"/>
-<var act="InOut" name="Result_CreditCustomerType" source-type="SELF" label="客户分层标签" type="String"/>
-<var act="InOut" name="Result_ProType" source-type="SELF" label="业务种类标签" type="String"/>
-<var act="InOut" name="Result_LoanFlowType" source-type="SELF" label="贷款流标签" type="String"/>
-<var act="InOut" name="Result_RiskLevel" source-type="SELF" label="评分风险等级" type="String"/>
-<var act="InOut" name="Result_CityLevel" source-type="SELF" label="城市等级" type="String"/>
-<var act="InOut" name="Result_FarmerLevel" source-type="SELF" label="农户评级" type="String"/>
-<var act="InOut" name="Temp_AnjuProAmount" source-type="SELF" label="安居贷产品额度" type="Double"/>
-<var act="InOut" name="Temp_ZhunongProAmount" source-type="SELF" label="助农贷产品额度" type="Double"/>
-<var act="InOut" name="Temp_HangyeProAmount" source-type="SELF" label="行业贷产品额度" type="Double"/>
-<var act="InOut" name="Temp_CheweiProAmount" source-type="SELF" label="车位贷产品额度" type="Double"/>
-<var act="InOut" name="Temp_DianEProAmount" source-type="SELF" label="店E贷产品额度" type="Double"/>
-<var act="InOut" name="Temp_YancaoProAmount" source-type="SELF" label="烟草贷产品额度" type="Double"/>
-<var act="InOut" name="Temp_ProductUBAmount" source-type="SELF" label="产品额度上限" type="Double"/>
-<var act="InOut" name="Temp_ProductLBAmount" source-type="SELF" label="产品额度下限" type="Double"/>
-<var act="InOut" name="Temp_ProductAmount" source-type="SELF" label="产品额度" type="Double"/>
-<var act="InOut" name="Temp_IncomeMonthPBAccFund" source-type="SELF" label="人行公积金月收入推测值" type="Double"/>
-<var act="InOut" name="Temp_IncomeMonthHL" source-type="SELF" label="人行房贷月收入推测值" type="Double"/>
-<var act="InOut" name="Temp_IncomeMonthCredit" source-type="SELF" label="人行有效信用卡月收入推测值" type="Double"/>
-<var act="InOut" name="Temp_IncomeMonthBase" source-type="SELF" label="基准月收入推断值" type="Double"/>
-<var act="InOut" name="Result_IncomeMonth" source-type="SELF" label="月均收入认定值" type="Double"/>
-<var act="InOut" name="Result_DebtPBMonth" source-type="SELF" label="人行月度负债支出" type="Double"/>
-<var act="InOut" name="Temp_CreditUBAmount" source-type="SELF" label="风险额度上限" type="Double"/>
-<var act="InOut" name="Temp_CreditLBAmount" source-type="SELF" label="风险额度下限" type="Double"/>
-<var act="InOut" name="Temp_IncomeCreditAmount" source-type="SELF" label="收入推算额度" type="Double"/>
-<var act="InOut" name="Temp_HLCreditAmount" source-type="SELF" label="房产推算额度" type="Double"/>
-<var act="InOut" name="Temp_LCCreditAmount" source-type="SELF" label="信用卡推算额度" type="Double"/>
-<var act="InOut" name="Temp_TradeCreditAmount" source-type="SELF" label="同业授信推算额度" type="Double"/>
-<var act="InOut" name="Temp_DBRCap" source-type="SELF" label="收入负债比上限" type="Double"/>
-<var act="InOut" name="Temp_HLMobCoefficient" source-type="SELF" label="还贷年限系数" type="Double"/>
-<var act="InOut" name="Temp_CreditCoefficient" source-type="SELF" label="风险系数" type="Double"/>
-<var act="InOut" name="Temp_CustomerTypeCoefficient" source-type="SELF" label="客群系数" type="Double"/>
-<var act="InOut" name="Temp_TCMobCoefficient" source-type="SELF" label="还款系数" type="Double"/>
-<var act="InOut" name="Temp_CashRatio" source-type="SELF" label="取现倍数" type="Double"/>
-<var act="InOut" name="Temp_CreditAmount" source-type="SELF" label="风险额度" type="Double"/>
-<var act="InOut" name="Temp_Amount" source-type="SELF" label="初始额度" type="Double"/>
-<var act="InOut" name="Result_Amount" source-type="SELF" label="授信额度" type="Double"/>
-<var act="InOut" name="Result_LoanRate" source-type="SELF" label="贷款利率" type="Double"/>
-<var act="InOut" name="Result_LoanPeriod" source-type="SELF" label="贷款期数" type="String"/>
-<var act="InOut" name="Result_CreditValidDuration" source-type="SELF" label="额度有效期" type="Integer"/>
-<var act="InOut" name="RuleAF0050Score" source-type="SELF" label="规则AF0050分值" type="String"/>
-<var act="InOut" name="RuleAF0051Score" source-type="SELF" label="规则AF0051分值" type="String"/>
-<var act="InOut" name="RuleAF0052Score" source-type="SELF" label="规则AF0052分值" type="String"/>
-<var act="InOut" name="RuleAF0053Score" source-type="SELF" label="规则AF0053分值" type="String"/>
-<var act="InOut" name="RuleAF0054Score" source-type="SELF" label="规则AF0054分值" type="String"/>
-<var act="InOut" name="RuleAF0055Score" source-type="SELF" label="规则AF0055分值" type="String"/>
-<var act="InOut" name="RuleAF0056Score" source-type="SELF" label="规则AF0056分值" type="String"/>
-<var act="InOut" name="RuleAF0057Score" source-type="SELF" label="规则AF0057分值" type="String"/>
-<var act="InOut" name="RuleAF0058Score" source-type="SELF" label="规则AF0058分值" type="String"/>
-<var act="InOut" name="RuleAF0059Score" source-type="SELF" label="规则AF0059分值" type="String"/>
-<var act="InOut" name="RuleAF0060Score" source-type="SELF" label="规则AF0060分值" type="String"/>
-<var act="InOut" name="RuleAF0061Score" source-type="SELF" label="规则AF0061分值" type="String"/>
-<var act="InOut" name="RuleAF0062Score" source-type="SELF" label="规则AF0062分值" type="String"/>
-<var act="InOut" name="RuleAF0064Score" source-type="SELF" label="规则AF0064分值" type="String"/>
-<var act="InOut" name="RuleAF0065Score" source-type="SELF" label="规则AF0065分值" type="String"/>
-<var act="InOut" name="RuleCD0075Score" source-type="SELF" label="规则CD0075分值" type="String"/>
-<var act="InOut" name="RuleCD0076Score" source-type="SELF" label="规则CD0076分值" type="String"/>
-</category>
+	<category name="传入变量" type="Custom" clazz="com.qsq.dmp.common.utils.DmpSyncMap">
+		<var act="InOut" source-type="FEATURE" label="行内_产品申请标签" name="BK_ProApply_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_是否提供经营信息" name="BK_IfEnApply_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="行内_安居贷白名单标签" name="BK_HLList_Count_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_行业贷白名单标签" name="BK_PLList_Count_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_助农贷白名单标签" name="BK_ALList_Count_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_子产品申请标签" name="BK_SecProApply_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_助贷渠道标签" name="BK_IfHBList_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_未结清房贷笔数" name="PBV2_UnclearHouseLoanCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_学历" name="PBV2_edu_level_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="人行_人行公积金正常缴交笔数" name="PBV2_AFNormalCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_未结清信用贷款笔数" name="PBV2_UnclearCreditLoanBankCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_有效贷记卡卡账户数" name="PBV2_EfficientCardCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_工作省份" name="Apply_JobProvince_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_身份证号前两位" name="Apply_CertNoPrefix2_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_居住省份" name="Apply_HomeProvince_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="人行_人行报告数 " name="PBV2_Count_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_年龄 " name="Apply_Age_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_单位名称" name="Apply_JobName_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_职业信息选项" name="Apply_JobType_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_身份证有效期" name="Apply_CertNoValidDay_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_联系人1名字" name="Apply_Contact1Name_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_联系人2名字" name="Apply_Contact2Name_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_最近一次拒绝间隔天数" name="Apply_LeastRefuseDays_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_当前逾期天数" name="BK_OverdueNowDay_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_历史最大逾期天数" name="BK_OverdueMaxDay_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_实名验证结果" name="BK_IdverResult_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_申请人手机号" name="Apply_Mobile_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_第一联系人手机号" name="Apply_Contact1_Mobile_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_第二联系人手机号" name="Apply_Contact2_Mobile_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_手机号码前三位" name="Apply_MobilePrefix3_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_手机号码前四位" name="Apply_MobilePrefix4_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_联系人1手机号码前三位" name="Apply_Contact1_MobilePrefix3_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_联系人1手机号码前四位" name="Apply_Contact1_MobilePrefix4_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_联系人2手机号码前三位" name="Apply_Contact2_MobilePrefix3_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_联系人2手机号码前四位" name="Apply_Contact2_MobilePrefix4_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="百融_手机在网状态" name="BR_TelStatus_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="百融_手机在网时长" name="BR_TelPeriodValue_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="百融_手机三要素验证结果" name="BR_TelCheckResult_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="百融_联系人1手机在网状态" name="BR_Contact1_TelStatus_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="百融_联系人2手机在网状态" name="BR_Contact2_TelStatus_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_授信或用信时的定位城市" name="Apply_LBSCity_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_工作城市" name="Apply_JobCity_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_居住城市" name="Apply_HomeCity_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_用信对应的授信定位城市" name="Apply_CreditLBSCity_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="行内_伽利略黑名单" name="BK_BlackListJLL_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_道琼斯黑名单" name="BK_BlackListDowjones_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_信管黑名单" name="BK_BlackListCredit_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_核心黑名单" name="BK_BlackListCore_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_联系人1伽利略黑名单" name="BK_Contact1_BlackListJLL_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_联系人1道琼斯黑名单" name="BK_Contact1_BlackListDowjones_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_联系人1信管黑名单" name="BK_Contact1_BlackListCredit_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_联系人1核心黑名单" name="BK_Contact1_BlackListCore_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_联系人2伽利略黑名单" name="BK_Contact2_BlackListJLL_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_联系人2道琼斯黑名单" name="BK_Contact2_BlackListDowjones_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_联系人2信管黑名单" name="BK_Contact2_BlackListCredit_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_联系人2核心黑名单" name="BK_Contact2_BlackListCore_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="行内_银行关联人命中结果" name="BK_IfAffiliated_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="百融_命中不良标签" name="BR_BadInfoFlagCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_身份证号银行资信不佳标签" name="BR_IdBKFraudCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_身份证号非银资信不佳标签" name="BR_IdNotBKFraudCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_手机号银行资信不佳标签" name="BR_CellBKFraudCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_手机号非银资信不佳标签" name="BR_CellNotBKFraudCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_身份证号银行高风险标签" name="BR_IdBKLostCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_身份证号非银高风险标签" name="BR_IdNotBKLostCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_手机号银行高风险标签" name="BR_CellBKLostCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_手机号非银高风险标签" name="BR_CellNotBKLostCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_身份证号银行中风险标签" name="BR_IdBKBadCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_身份证号非银中风险标签" name="BR_IdNotBKBadCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_手机号银行中风险标签" name="BR_CellBKBadCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_手机号非银中风险标签" name="BR_CellNotBKBadCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_身份证号银行一般风险标签" name="BR_IdBKOverdueCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_身份证号非银一般风险标签" name="BR_IdNotBKOverdueCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_手机号银行一般风险标签" name="BR_CellBKOverdueCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_手机号非银一般风险标签" name="BR_CellNotBKOverdueCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="天御_失信风险码" name="TY_PublicInfoShixinCode_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="汇法_命中执行标签" name="HF_ZhixingCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="汇法_失信老赖标签" name="HF_ShixinCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="汇法_限制高消费标签" name="HF_XiangaoCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="汇法_限制出入境标签" name="HF_XianchuCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="汇法_罪犯及嫌疑人标签" name="HF_ZuifanCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_法院失信标签" name="BR_CourtBadCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_法院被执行标签" name="BR_CourtExecutedCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="天御_多重互金行为欺诈" name="TY_MoreFraudCode_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="天御_手机号风险码" name="TY_CellFraudCode1_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="天御_设备风险码" name="TY_DeviceFraudCode2_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="天御_资金紧张风险码" name="TY_TightFraudCode_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="天御_支付行为异常风险码" name="TY_PaymentBehaviorCode_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="天御_失联风险码" name="TY_LostFraudCode_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="天御_命中疑似准入风险" name="TY_SusAccess_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_近30天内申请件中申请人手机号作为联系人出现的次数" name="Apply_D30MobileInContactCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_近30天内申请件中第一联系人手机号作为联系人出现的次数" name="Apply_D30Contact1InContactCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_近30天内申请件中第二联系人手机号作为联系人出现的次数" name="Apply_D30Contact2InContactCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="天御_圈团风险浓度分" name="TY_QTScore_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近3月身份证关联手机号个数" name="BR_M3_id_x_cell_cnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近3月手机号关联身份证号个数" name="BR_M3_cell_x_id_cnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近3月手机号关联设备个数" name="BR_M3_cell_x_device_cnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近6月身份证关联手机号个数" name="BR_M6_id_x_cell_cnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近6月手机号关联身份证号个数" name="BR_M6_cell_x_id_cnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近6月手机号关联设备个数" name="BR_M6_cell_x_device_cnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_手机号关联身份证个数" name="BR_cell_x_id_cnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_身份证关联手机号个数" name="BR_id_x_cell_cnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_查询人欺诈团伙等级" name="BR_frg_list_level_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_手机号关联设备个数" name="BR_cell_x_device_cnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_最新表现信息段中账户状态异常的账户数" name="PBV2_NewStateAbnormalCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_还款状态异常账户数" name="PBV2_PayStateAbnormalCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_最近一次月度表现信息段中账户状态异常的账户数" name="PBV2_LastStateAbnormalCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_当前逾期期数异常账户数" name="PBV2_LastOverdueAbnomalCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_呆账汇总账户数" name="PBV2_BadAccountCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_资产处置汇总账户数数" name="PBV2_ArrearAssetDispositionCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_垫款业务汇总账户数数" name="PBV2_ArrearAdvanceAccountCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_资产处置账户数" name="PBV2_AssetDispositionCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_代偿债务为催收的账户数" name="PBV2_AssureRepayCollectionCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_五级分类不良笔数" name="PBV2_Class5BadCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_特殊交易中严重违约笔数_展期延期担保人代偿以资抵债" name="PBV2_SpecialTradeBadCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_贷款严重违约笔数_逾期呆账银行止付担保物不足强制平仓司法追偿" name="PBV2_LoanBadCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_贷记卡准贷记卡严重违约笔数_冻结银行止付呆账司法追偿" name="PBV2_CreditCardBadCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_准贷记卡近24期严重逾期次数" name="PBV2_M24SCCBadDeqlTimes_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_贷记卡近24期严重逾期次数" name="PBV2_M24CCDadDeqlTimes_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_贷款近24期严重逾期次数" name="PBV2_M24PLDadDeqlTimes_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_贷款最近3个月最大连续逾期期数" name="PBV2_M3PLMaxDeqlPeriods_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_贷记卡最近3个月最大连续逾期期数" name="PBV2_M3CCMaxDeqlPeriods_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_近3个月贷记卡最大逾期金额" name="PBV2_M3CCOverdueMaxAmount_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_近6个月最大逾期期数" name="PBV2_M6MaxOverduePeriods_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_近6个月连续逾期期数" name="PBV2_M6SeriesOverduePeriods_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_近12个月最大逾期期数" name="PBV2_M12MaxOverduePeriods_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_近24个月最大逾期期数" name="PBV2_M24MaxOverduePeriods_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_近24个月连续逾期期数" name="PBV2_M24SeriesOverduePeriods_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_近24个月累计逾期期数" name="PBV2_M24AccOverduePeriods_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_近24个月贷款累计逾期期数" name="PBV2_M24LoanAccOverduePeriods_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_近24个月贷记卡累计逾期期数" name="PBV2_M24CardAccOverduePeriods_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_近5年发生过逾期的贷款账户数" name="PBV2_Y5LoanOverdueAccountCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="天御_1个月内申请人逾期平台数" name="TY_M1DeliqPlatformCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="天御_3个月内申请人逾期平台数" name="TY_M3DeliqPlatformCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="天御_6个月内申请人逾期平台数" name="TY_M6DeliqPlatformCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_相关还款责任五级分类不良笔数" name="PBV2_RelevantRepayClass5BadCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_相关还款责任当前逾期账户数" name="PBV2_RelevantRepayCurDeqlCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_强制执行记录数" name="PBV2_ForceExecutionCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_欠税记录条数" name="PBV2_TaxArreaCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_民事判断违约记录数" name="PBV2_CivilJudgmentDefaultCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_行政处罚记录数" name="PBV2_AdminPunishmentCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_低保救助记录记录数" name="PBV2_SalvationCnrt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_贷记卡最低还款账户数" name="PBV2_CardMiniPaymentCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_未销户贷记卡最近6个月平均使用额度" name="PBV2_CardM6AvgUsedAmount_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_贷记卡近6个月平均额度使用率" name="PBV2_CardM6AvgUsedRatio_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_贷记卡当前额度使用率" name="PBV2_CardCurUsedRatio_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_贷记卡当前使用额度" name="PBV2_CardCurUsedAmt_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="行内_贷款总余额" name="BK_TotalBalance_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="行内_信用贷款总余额" name="BK_CreditBalance_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="行内_当日累计放款金额" name="BK_TotalLimitDay_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_额度使用率大于50的信用卡张数" name="PBV2_CardCurUsedRatioThen50_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_信用卡总张数" name="PBV2_CardCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_未结清经营性贷款笔数" name="PBV2_OperatLoanCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_未结清非银行金融机构贷款笔数" name="PBV2_SpecLoanCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_未结清信用贷款余额" name="PBV2_Creditloan_Bal_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_当前信用贷款银行机构数" name="PBV2_CurCreditLoanBankOrg_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_当前信用贷款非银行机构数" name="PBV2_CurCreditLoanNoBankOrg_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_非银行金融机构未结清贷款笔数" name="PBV2_UnclearNoBankLoanCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_近3个月新增尚未结清贷款笔数" name="PBV2_M3AddUnclearLoanCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_近6个月新增尚未结清贷款笔数" name="PBV2_M6AddUnclearLoanCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_当前负债总额" name="PBV2_CurTotalDebt_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="天御_7天内申请人共债平台数" name="TY_D7DebtPlatformCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="天御_1个月内申请人共债平台数" name="TY_M1DebtPlatformCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="天御_3个月内申请人共债平台数" name="TY_M3DebtPlatformCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_最近3个月贷款信用卡及客户准入资格审查查询次数" name="PBV2_M3QueryRecordCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_最近1个月贷款信用卡及本人查询次数" name="PBV2_M1QueryRecordCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_近6个月贷款信用卡保前审查查询次数" name="PBV2_M6QueryRecordCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_近6个月放款次数" name="PBV2_M6LendCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_近12个月贷款信用卡保前审查查询次数" name="PBV2_M12QueryRecordCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_近12个月放款次数" name="PBV2_M12LendCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="天御_7天内身份证申请命中平台数" name="TY_D7IdNoPlatformCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="天御_1个月内身份证申请命中平台数" name="TY_M1IdNoPlatformCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="天御_3个月内身份证申请命中平台数" name="TY_M3IdNoPlatformCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近7天手机号银行申请机构数" name="BR_D7CellBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近7天身份证银行申请机构数" name="BR_D7IdBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近7天手机号非银申请机构数" name="BR_D7CellNBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近7天身份证非银申请机构数" name="BR_D7IdNBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近15天手机号银行申请机构数" name="BR_D15CellBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近15天身份证银行申请机构数" name="BR_D15IdBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近15天手机号非银申请机构数" name="BR_D15CellNBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近15天身份证非银申请机构数" name="BR_D15IdNBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近1月手机号银行申请机构数" name="BR_M1CellBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近1月身份证银行申请机构数" name="BR_M1IdBankCount_I " type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近1月手机号非银申请机构数" name="BR_M1CellNBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近1月身份证非银申请机构数" name="BR_M1IdNBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近3月手机号银行申请机构数" name="BR_M3CellBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近3月身份证银行申请机构数" name="BR_M3IdBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近3月手机号非银申请机构数" name="BR_M3CellNBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近3月身份证非银申请机构数" name="BR_M3IdNBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近6月手机号银行申请机构数" name="BR_M6CellBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近6月身份证银行申请机构数" name="BR_M6IdBankCount_I " type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近6月手机号非银申请机构数" name="BR_M6CellNBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近6月身份证非银申请机构数" name="BR_M6IdNBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近12月手机号银行申请机构数" name="BR_M12CellBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近12月身份证银行申请机构数" name="BR_M12IdBankCount_I " type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近12月手机号非银申请机构数" name="BR_M12CellNBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近12月身份证非银申请机构数" name="BR_M12IdNBankCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_当日身份证银行申请机构数" name="BR_ald_id_bank_orgnum_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_当日身份证非银申请机构数" name="BR_ald_id_nbank_orgnum_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_当日手机号银行申请机构数" name="BR_ald_cell_bank_orgnum_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_当日手机号非银申请机构数" name="BR_ald_cell_nbank_orgnum_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近7天高风险身份证申请机构数" name="BR_alu_d7_id_orgnum_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近7天高风险手机号申请机构数" name="BR_alu_d7_cell_orgnum_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近1个月高风险身份证申请机构数" name="BR_alu_m1_id_orgnum_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近1个月高风险手机号申请机构数" name="BR_alu_m1_cell_orgnum_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近3个月高风险身份证申请机构数" name="BR_alu_m3_id_orgnum_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近3个月高风险手机号申请机构数" name="BR_alu_m3_cell_orgnum_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="进件信息_申请人姓名" name="Apply_Name_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="企查查_法人" name="QCC_OperName_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="企查查_申请人持股比例" name="QCC_StockPercent_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="企查查_成立日期距申请月份数" name="QCC_StartDateMob_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="企查查_企业经营状态" name="QCC_CoStatus_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="企查查_命中清算标签" name="QCC_LiquidationCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="企查查_命中失信标签" name="QCC_ShixinCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="企查查_纳税信用等级" name="QCC_CoLevel_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="企查查_欠税标签" name="QCC_TOCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="企查查_行政处罚标签" name="QCC_PenaltyCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="企查查_违法行为类型" name="QCC_PenaltyType_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="企查查_执行标的占比" name="QCC_BiaodiRatio_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="企查查_申请人负面风险标签" name="QCC_BadCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="企查查_股权冻结记录数" name="QCC_STFCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_联系人1手机号银行一般风险距今时间" name="BR_Contact1_CellBankOverdueTime_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_联系人2手机号银行一般风险距今时间" name="BR_Contact2_CellBankOverdueTime_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_联系人1手机号非银一般风险距今时间" name="BR_Contact1_CellNotBankOverdueTime_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_联系人2手机号非银一般风险距今时间" name="BR_Contact2_CellNotBankOverdueTime_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_联系人1手机号银行高风险标签" name="BR_Contact1_CellBKLostCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_联系人1手机号非银高风险标签" name="BR_Contact1_CellNotBKLostCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_联系人2手机号银行高风险标签" name="BR_Contact2_CellBKLostCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_联系人2手机号非银高风险标签" name="BR_Contact2_CellNotBKLostCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_联系人1手机号银行资信不佳标签" name="BR_Contact1_CellBKFraudCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_联系人1手机号非银资信不佳标签" name="BR_Contact1_CellNotBKFraudCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_联系人2手机号银行资信不佳标签" name="BR_Contact2_CellBKFraudCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_联系人2手机号非银资信不佳标签" name="BR_Contact2_CellNotBKFraudCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_联系人1手机号非银中风险标签" name="BR_Contact1_CellNotBKBadCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_联系人2手机号非银中风险标签" name="BR_Contact2_CellNotBKBadCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_联系人1手机号非银拒绝距今时间" name="BR_Contact1_CellNotBankRefuseTime_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_联系人2手机号非银拒绝距今时间" name="BR_Contact2_CellNotBankRefuseTime_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近12月身份证关联手机号个数" name="BR_M12_id_x_cell_cnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近12月手机号关联身份证号个数" name="BR_M12_cell_x_id_cnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近12月身份证关联设备个数" name="BR_M12_id_x_device_cnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近12月手机号关联设备个数" name="BR_M12_cell_x_device_cnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_身份证号关联的非申请手机号的最近查询距今天数" name="BR_id_x_cell_notmat_days_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_手机号关联的非申请身份证号的最近查询距今天数" name="BR_cell_x_id_notmat_days_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近12月联系人1手机号关联申请人身份证号个数" name="BR_Contact1_m12_linkman_cell_x_id_cnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近12月联系人1手机号关联申请人手机号个数" name="BR_Contact1_m12_linkman_cell_x_cell_cnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近12月联系人2手机号关联申请人身份证号个数" name="BR_Contact2_m12_linkman_cell_x_id_cnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近12月联系人2手机号关联申请人手机号个数" name="BR_Contact2_m12_linkman_cell_x_cell_cnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_近6月手机号关联邮箱个数" name="BR_M6_cell_x_mail_cnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="百融_查询人欺诈团伙群组规模" name="BR_frg_group_num_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="天御_反欺诈评分" name="TY_FraudScore_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_个人住房贷款笔数" name="PBV2_HouseLoanCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_贷记卡最早帐龄" name="PBV2_LoancardOpenMaxMonthCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_贷记卡额度使用率大于等于百分之60的账户个数" name="PBV2_LoancardLimitUsedThan60Count_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_未结清个贷账户数占比" name="PBV2_LoanUnclearRatio_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_24个月查询加权" name="PBV2_M24QueryWeight_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_近6个月最大连续逾期期数_专3" name="PBV2_M6OverdueMaxCount_Card3_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_最近一次担保审批查询距今月份数" name="PBV2_LastGuaranteeMonthCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_贷款逾期笔数" name="PBV2_OverdueLoanCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_贷记卡还款率" name="PBV2_LoancardRepayRatio_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="银行房贷_鉴价总值" name="BK_HL_Total_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="银行房贷_授信贷放成数" name="BK_HL_LTV_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="银行房贷_目前贷放成数" name="BK_HL_CLTV_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="银行房贷_已还年限" name="BK_HL_PayYear_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="银行农户_年收入" name="BK_FarmerIncome_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="银行_工作职级" name="BK_Duty_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="银行_工作年限" name="BK_WorkTime_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="银行_工作收入" name="BK_WorkIncome_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="银行_车位价格" name="BK_ParkingPrice_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="银行_房贷标签" name="BK_HL_Count_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_本行房贷标签" name="PBV2_HL_Count_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="银行_经营年限" name="BK_StartDateMob_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="银行_月均纳税额" name="BK_TaxAvg_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="银行_经营主体加权税率" name="BK_WeightedTaxPercent_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="银行_近半年纳税额环比" name="BK_M6TaxMOM_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="银行烟草贷_烟草档位" name="BK_TobaccoGear_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="银行烟草贷_月均订烟金额" name="BK_TobaccoPayAvg_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_贷记卡大额专项分期月度应还款额" name="PBV2_LargeInstallmentmonthpayment_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_分期类贷款当前月度应还款额" name="PBV2_InstalmentMonthPay_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_不定期归还贷款月均余额" name="PBV2_IrregularityMonthPay_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_公积金最近缴交日期与申请日期月份数差" name="PBV2_AFLastMob_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_正常缴交状态公积金月缴存额" name="PBV2_AF_Pay_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_公积金个人缴存比例" name="PBV2_AF_OwnPercent_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_公积金单位缴存比例" name="PBV2_AF_ComPercent_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_按揭房贷笔数" name="PBV2_NormalHLCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_房贷月供" name="PBV2_HLScheduledAmount_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_住房公积金公积金参缴地" name="PBV2_AF_Aera_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="人行_正常及未激活贷记卡最大开卡账龄月份数" name="PBV2_LCOpenMaxMonthCount_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_贷记卡平均授信额度" name="PBV2_LoanCardAvgLimitAmt_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_单笔房贷最大月供金额" name="PBV2_MTG_MaxAmt_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_未结清房贷已还月份数" name="PBV2_UnclearHouseLoanRepaidMonth_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_未销户贷记卡单家行最高授信额" name="PBV2_LCMaxSingleLimit_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_未销户贷记卡平均授信额度" name="PBV2_CardAvgLimit_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_最高授信信用贷款月均还款额" name="PBV2_MaxPCLRepayAmt_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_最低授信信用贷款月均还款额" name="PBV2_MinPCLRepayAmt_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_未结清信用类消费贷款已还月份" name="PBV2_CreditLoanRepaidMonth_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_贷记卡机构数" name="PBV2_CardOrgCnt_I" type="Integer"/>
+		<var act="InOut" source-type="FEATURE" label="人行_未结清消费贷款余额" name="PBV2_PCLBalance_D" type="Double"/>
+		<var act="InOut" source-type="FEATURE" label="人行_行业" name="PBV2_Industry_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="人行_正常缴交状态公积金优质企业类型" name="PBV2_TS_PBGoodCompanyType_S" type="String"/>
+		<var act="InOut" source-type="FEATURE" label="人行_工作单位企业类型" name="PBV2_TS_PBPIPGoodCompanyType_S" type="String"/>
+	</category>
+	<category name="临时变量" type="Custom" clazz="com.qsq.dmp.common.utils.DmpSyncMap">
+		<var act="InOut" source-type="SELF" label="准入规则命中结果" name="Result_RulesPL" type="String"/>
+		<var act="InOut" source-type="SELF" label="反欺诈规则命中结果" name="Result_RulesAF" type="String"/>
+		<var act="InOut" source-type="SELF" label="信用评估规则命中结果" name="Result_RulesCD" type="String"/>
+		<var act="InOut" source-type="SELF" label="经营评估规则命中结果" name="Result_RulesEA" type="String"/>
+		<var act="InOut" source-type="SELF" label="规则命中结果" name="Result_Rules" type="String"/>
+		<var act="InOut" source-type="SELF" label="强规则命中结果" name="Result_Rules_D" type="String"/>
+		<var act="InOut" source-type="SELF" label="弱规则命中结果" name="Result_Rules_R" type="String"/>
+		<var act="InOut" source-type="SELF" label="反欺诈模型准入结果" name="ML0001" type="String"/>
+		<var act="InOut" source-type="SELF" label="反欺诈模型阈值" name="ML0001_Threshold" type="Double"/>
+		<var act="InOut" source-type="SELF" label="反欺诈模型评分" name="ML0001_Score" type="Double"/>
+		<var act="InOut" source-type="SELF" label="信用模型准入结果" name="ML0002" type="String"/>
+		<var act="InOut" source-type="SELF" label="信用模型阈值" name="ML0002_Threshold" type="Double"/>
+		<var act="InOut" source-type="SELF" label="信用模型评分" name="ML0002_Score" type="Double"/>
+		<var act="InOut" source-type="SELF" label="审批流程结果" name="Result_Access" type="String"/>
+		<var act="InOut" source-type="SELF" label="产品客群标签" name="Result_ProCustomerType" type="String"/>
+		<var act="InOut" source-type="SELF" label="客户分层标签" name="Result_CreditCustomerType" type="String"/>
+		<var act="InOut" source-type="SELF" label="业务种类标签" name="Result_ProType" type="String"/>
+		<var act="InOut" source-type="SELF" label="贷款流标签" name="Result_LoanFlowType" type="String"/>
+		<var act="InOut" source-type="SELF" label="评分风险等级" name="Result_RiskLevel" type="String"/>
+		<var act="InOut" source-type="SELF" label="城市等级" name="Result_CityLevel" type="String"/>
+		<var act="InOut" source-type="SELF" label="农户评级" name="Result_FarmerLevel" type="String"/>
+		<var act="InOut" source-type="SELF" label="安居贷产品额度" name="Temp_AnjuProAmount" type="Double"/>
+		<var act="InOut" source-type="SELF" label="助农贷产品额度" name="Temp_ZhunongProAmount" type="Double"/>
+		<var act="InOut" source-type="SELF" label="行业贷产品额度" name="Temp_HangyeProAmount" type="Double"/>
+		<var act="InOut" source-type="SELF" label="车位贷产品额度" name="Temp_CheweiProAmount" type="Double"/>
+		<var act="InOut" source-type="SELF" label="店E贷产品额度" name="Temp_DianEProAmount" type="Double"/>
+		<var act="InOut" source-type="SELF" label="烟草贷产品额度" name="Temp_YancaoProAmount" type="Double"/>
+		<var act="InOut" source-type="SELF" label="产品额度上限" name="Temp_ProductUBAmount" type="Double"/>
+		<var act="InOut" source-type="SELF" label="产品额度下限" name="Temp_ProductLBAmount" type="Double"/>
+		<var act="InOut" source-type="SELF" label="产品额度" name="Temp_ProductAmount" type="Double"/>
+		<var act="InOut" source-type="SELF" label="人行公积金月收入推测值" name="Temp_IncomeMonthPBAccFund" type="Double"/>
+		<var act="InOut" source-type="SELF" label="人行房贷月收入推测值" name="Temp_IncomeMonthHL" type="Double"/>
+		<var act="InOut" source-type="SELF" label="人行有效信用卡月收入推测值" name="Temp_IncomeMonthCredit" type="Double"/>
+		<var act="InOut" source-type="SELF" label="基准月收入推断值" name="Temp_IncomeMonthBase" type="Double"/>
+		<var act="InOut" source-type="SELF" label="月均收入认定值" name="Result_IncomeMonth" type="Double"/>
+		<var act="InOut" source-type="SELF" label="人行月度负债支出" name="Result_DebtPBMonth" type="Double"/>
+		<var act="InOut" source-type="SELF" label="风险额度上限" name="Temp_CreditUBAmount" type="Double"/>
+		<var act="InOut" source-type="SELF" label="风险额度下限" name="Temp_CreditLBAmount" type="Double"/>
+		<var act="InOut" source-type="SELF" label="收入推算额度" name="Temp_IncomeCreditAmount" type="Double"/>
+		<var act="InOut" source-type="SELF" label="房产推算额度" name="Temp_HLCreditAmount" type="Double"/>
+		<var act="InOut" source-type="SELF" label="信用卡推算额度" name="Temp_LCCreditAmount" type="Double"/>
+		<var act="InOut" source-type="SELF" label="同业授信推算额度" name="Temp_TradeCreditAmount" type="Double"/>
+		<var act="InOut" source-type="SELF" label="收入负债比上限" name="Temp_DBRCap" type="Double"/>
+		<var act="InOut" source-type="SELF" label="还贷年限系数" name="Temp_HLMobCoefficient" type="Double"/>
+		<var act="InOut" source-type="SELF" label="风险系数" name="Temp_CreditCoefficient" type="Double"/>
+		<var act="InOut" source-type="SELF" label="客群系数" name="Temp_CustomerTypeCoefficient" type="Double"/>
+		<var act="InOut" source-type="SELF" label="还款系数" name="Temp_TCMobCoefficient" type="Double"/>
+		<var act="InOut" source-type="SELF" label="取现倍数" name="Temp_CashRatio" type="Double"/>
+		<var act="InOut" source-type="SELF" label="风险额度" name="Temp_CreditAmount" type="Double"/>
+		<var act="InOut" source-type="SELF" label="初始额度" name="Temp_Amount" type="Double"/>
+		<var act="InOut" source-type="SELF" label="授信额度" name="Result_Amount" type="Double"/>
+		<var act="InOut" source-type="SELF" label="贷款利率" name="Result_LoanRate" type="Double"/>
+		<var act="InOut" source-type="SELF" label="贷款期数" name="Result_LoanPeriod" type="String"/>
+		<var act="InOut" source-type="SELF" label="额度有效期" name="Result_CreditValidDuration" type="Integer"/>
+		<var act="InOut" source-type="SELF" label="规则AF0050分值" name="RuleAF0050Score" type="String"/>
+		<var act="InOut" source-type="SELF" label="规则AF0051分值" name="RuleAF0051Score" type="String"/>
+		<var act="InOut" source-type="SELF" label="规则AF0052分值" name="RuleAF0052Score" type="String"/>
+		<var act="InOut" source-type="SELF" label="规则AF0053分值" name="RuleAF0053Score" type="String"/>
+		<var act="InOut" source-type="SELF" label="规则AF0054分值" name="RuleAF0054Score" type="String"/>
+		<var act="InOut" source-type="SELF" label="规则AF0055分值" name="RuleAF0055Score" type="String"/>
+		<var act="InOut" source-type="SELF" label="规则AF0056分值" name="RuleAF0056Score" type="String"/>
+		<var act="InOut" source-type="SELF" label="规则AF0057分值" name="RuleAF0057Score" type="String"/>
+		<var act="InOut" source-type="SELF" label="规则AF0058分值" name="RuleAF0058Score" type="String"/>
+		<var act="InOut" source-type="SELF" label="规则AF0059分值" name="RuleAF0059Score" type="String"/>
+		<var act="InOut" source-type="SELF" label="规则AF0060分值" name="RuleAF0060Score" type="String"/>
+		<var act="InOut" source-type="SELF" label="规则AF0061分值" name="RuleAF0061Score" type="String"/>
+		<var act="InOut" source-type="SELF" label="规则AF0062分值" name="RuleAF0062Score" type="String"/>
+		<var act="InOut" source-type="SELF" label="规则AF0064分值" name="RuleAF0064Score" type="String"/>
+		<var act="InOut" source-type="SELF" label="规则AF0065分值" name="RuleAF0065Score" type="String"/>
+		<var act="InOut" source-type="SELF" label="规则CD0075分值" name="RuleCD0075Score" type="String"/>
+		<var act="InOut" source-type="SELF" label="规则CD0076分值" name="RuleCD0076Score" type="String"/>
+	</category>
 </variable-library>
